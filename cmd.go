@@ -5,7 +5,7 @@ import (
 	"os/exec"
 )
 
-func _11() {
+func fmt() {
 	cmd := exec.Command("ls", "-l", "/var/log/")
 	out, _ := cmd.CombinedOutput()
 	fmt.Printf("combined out:\n%s\n", string(out))
